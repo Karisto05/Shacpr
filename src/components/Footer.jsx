@@ -115,7 +115,7 @@ const Footer = () => {
                                 className='text-black pt-3 pr-[60px] pb-3 pl-4 ' 
                                 type="text" 
                                 placeholder='Enter eCertificate ID' />
-                                <button type='submit' className='hover:bg-green-600 flex items-center py-4 px-[103px] bg-white text-black font-bold text-sm'>VERIFY
+                                <button type='submit' className='hover:bg-green-600 flex items-center py-4 pl-24 pr-[109.5px] md:px-24 bg-white text-black font-bold text-sm'>VERIFY
                                 </button>
                             </form>
                         </div>
