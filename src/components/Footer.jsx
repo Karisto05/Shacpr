@@ -109,15 +109,22 @@ const Footer = () => {
                             <h3 className='my-3 text-xl font-bold font-slab'>Search E-Certificate</h3>
                             <p className='text-sm mb-4 text-[#FFFFFFCC]'>Enter the eCertificate ID in the box and click on verify button to verify your certificate</p>
                             <form onSubmit={handleSubmit}>
-                                <input 
-                                value={inputValue}
-                                onChange={handleInputChange}
-                                className='text-black pt-3 pr-[60px] pb-3 pl-4 ' 
-                                type="text" 
-                                placeholder='Enter eCertificate ID' />
-                                <button type='submit' className='hover:bg-green-600 flex items-center py-4 px-24 bg-white text-black font-bold text-sm'>VERIFY
-                                    <img className='h-4' src={arrow} alt="verify" />
-                                </button>
+                                <div className="flex flex-col justify-center w-full">
+                                    <input
+                                        value={inputValue}
+                                        onChange={handleInputChange}
+                                        className="flex-grow text-black py-3 px-4"
+                                        type="text"
+                                        placeholder="Enter eCertificate ID"
+                                    />
+                                    <button
+                                        type="submit"
+                                        className="flex justify-center items-center py-3 px-6 bg-white text-black font-bold text-sm hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500"
+                                    >
+                                        VERIFY
+                                        <img className="h-4 ml-2" src={arrow} alt="verify" />
+                                    </button>
+                                </div>
                             </form>
                         </div>
                     </div>
