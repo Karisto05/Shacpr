@@ -116,6 +116,7 @@ const Footer = () => {
                                 type="text" 
                                 placeholder='Enter eCertificate ID' />
                                 <button type='submit' className='hover:bg-green-600 flex items-center py-4 px-24 bg-white text-black font-bold text-sm'>VERIFY
+                                    <img className='h-4' src={arrow} alt="verify" />
                                 </button>
                             </form>
                         </div>
