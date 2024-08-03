@@ -1,0 +1,16 @@
+.custom-shadow {
+    box-shadow: 0 0 10px rgba(77, 77, 77, 0.6);
+    -moz-box-shadow: 0 0 10px rgba(77, 77, 77, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(77, 77, 77, 0.6);
+    -o-box-shadow: 0 0 10px rgba(77, 77, 77, 0.6);
+}
+
+.back {
+    position: relative;
+    z-index: 1;
+    background-image: url('./assets/footer-bg.png');
+    background-position: -100px 0;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
