@@ -63,6 +63,22 @@
       "courseName": "SHA BLS Provider",
       "certificateValidFrom": "02-Sept-2024",
       "certificateExpiryDate": "02-Sept-2026"
+    },
+    {
+      "ed" : "60183843400",
+      "id": "B4XOcn4ZCxuMV06SFNpdVa",
+      "certificateHolderName": "SAYED QAISAR ABBAS  SAYED AKBAR JAN",
+      "courseName": "SHA HSFA CPR AED course",
+      "certificateValidFrom": "06-Sept-2024",
+      "certificateExpiryDate": "06-Sept-2026"
+    },
+    {
+      "ed" : "60186384172",
+      "id": "w0QAwcDAZ6hiXg3nfZOoqJ",
+      "certificateHolderName": "SAYED QAISAR ABBAS  SAYED AKBAR JAN",
+      "courseName": "SHA BLS Provider",
+      "certificateValidFrom": "06-Sept-2024",
+      "certificateExpiryDate": "06-Sept-2026"
     }
 ]
   
